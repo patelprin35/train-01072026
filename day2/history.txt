@@ -244,3 +244,33 @@
   244  ls
   245  history
   246  history > history.txt
+  247  ls
+  248  mv day1 train-01072026/
+  249  ls
+  250  tree
+  251  mv day2 train-01072026/
+  252  mv day3 train-01072026/
+  253  mv history.txt train-01072026/
+  254  tree
+  255  cd train-01072026/
+  256  ls
+  257  mv history.txt day2/
+  258  ls
+  259  cd day2/
+  260  ls
+  261  pwd
+  262  terraform init
+  263  terraform plan
+  264  terraform destroy
+  265  rm -rf .terr*
+  266  cd ..
+  267  cd day1
+  268  rm -rf .terr*
+  269  cd ..
+  270  git add .
+  271  git commit -m "sample terraform"
+  272  git push
+  273  cd day2
+  274  ls
+  275  tree
+  276  history > history.txt 
