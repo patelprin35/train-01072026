@@ -1,0 +1,276 @@
+    1  cat .config/code-server/config.yaml
+    2  terraform init
+    3  terraform destroy
+    4  clear
+    5  ls
+    6  git add .
+    7  git commit -m "my terraform codes"
+    8  git config --global user.email "boondocksguy16@gmail.com"
+    9  git config --global user.name "boondocksguy16-ux"
+   10  git commit -m "my terraform codes"
+   11  git push
+   12  git clone https://github.com/boondocksguy16-ux/cain-boa-terraform-cicd.git
+   13  cp -v day2-code/*cain-boa-terraform-cicd/
+   14  cp -v day2-code/* cain-boa-terraform-cicd/
+   15  cp -v  day2-code/terraform.tfvars cain-boa-terraform-cicd/
+   16  git clone https://github.com/boondocksguy16-ux/cain-boa-terraform-cicd.git
+   17  ls
+   18  terraform plan
+   19  ls
+   20  terraform init
+   21  ls
+   22  ls -a
+   23  tree .terraform
+   24  terraform init
+   25  ls -a
+   26  ls
+   27  cd day2-code
+   28  ls
+   29  terraform init
+   30  terraform plan
+   31  clear
+   32  terraform plan -var-file=myvar-values.tfvars
+   33  clear
+   34  terraform plan
+   35  terraform apply -autoapprove
+   36  terraform apply -auto-approve
+   37  terraform state list
+   38  terraform state show
+   39  terraform state show aws-instance.example
+   40  terraform state show aws_instance.example
+   41  clear
+   42  terraform output > myip.txt
+   43  terraform init upgrade
+   44  clear
+   45  terraform init upgrade
+   46  terraform init -upgrade
+   47  terraform output'
+   48  terraform output
+   49  terraform output'
+   50  terraform output
+   51  terraform apply
+   52  clear
+   53  terraform apply
+   54  clear
+   55  terraform destroy
+   56  terraform state
+   57  terraform state list
+   58  clear
+   59  terraform init -migrate-state
+   60  mycto
+   61  terraform init -migrate-state
+   62  terraform apply
+   63  terraform init -migrate-state
+   64  terraform apply
+   65  clear
+   66  git clone https://github.com/boondocksguy16-ux/cain-boa-terraform-cicd.git
+   67  cp -v day2-code/*.tf cain-boa-terraform-cicd/
+   68  aws s3 ls
+   69  ls
+   70  terraform init
+   71  ls -a
+   72  terraform plan
+   73  terraform apply
+   74  terraform plan
+   75  terraform destroy
+   76  terraform plan
+   77  terraform apply
+   78  terraform state list
+   79  terraform state show 
+   80  terraform apply
+   81  terraform output 
+   82  terraform mt
+   83  terraform fmt
+   84  terraform vlidate 
+   85  terraform validate
+   86  clear
+   87  terraform validate
+   88  terraform apply
+   89  terraform validate
+   90  terraform apply
+   91  terraform output
+   92  clear
+   93  terraform destroy
+   94  clear
+   95  terraform destroy
+   96  clear
+   97  terraform validate
+   98  clear 
+   99  terraform validate
+  100  terraform plan
+  101  clear
+  102  terraform validate
+  103  mkdir cain-project
+  104  ls
+  105  terraform plan
+  106  git push
+  107  clear
+  108  git add
+  109  git add .
+  110  git commit -m "updating terra"
+  111  git push .
+  112  terraform calidate
+  113  terraform validate
+  114  clear
+  115  terraform validate
+  116  clear
+  117  terraform
+  118  terraform validate
+  119  terraform inti
+  120  terraform init
+  121  terraform plan
+  122  clear
+  123  terraform plan
+  124  terraform inti
+  125  terraform apply
+  126  terraform destroy
+  127  clear
+  128  git add .
+  129  git commit -m "vm name change for testing"
+  130  get push
+  131  git push
+  132  git add .
+  133  git commit -m "tf ec2 with sec group done"
+  134  git push 
+  135  git branch
+  136  git checkout -b dev
+  137  git branch
+  138  git switch main
+  139  git switch dev
+  140  git add .
+  141  git commit -m "updating dev branch with jenkinsfiles="
+  142  git push origin dev
+  143  clear
+  144  git branch
+  145  git switch main
+  146  git checkout -b prod
+  147  git branch
+  148  clear
+  149  terraform init
+  150  terraform plan
+  151  clear
+  152  terraform plan -var-file prod.tfvars
+  153  clear
+  154  terraform plan -var-file prod.tfvars
+  155  clear
+  156  terraform plan -var-file prod.tfvars
+  157  terraform -version
+  158  cd day1/
+  159  terraform init
+  160  terraform plan
+  161  terraform apply
+  162  terraform plan
+  163  aws s3 ls
+  164  terraform plan
+  165  terraform init
+  166  terraform plan
+  167  terraform init
+  168  terraform plan
+  169  terraform plan
+  170  terraform apply
+  171  terraform plan
+  172  terraform apply
+  173  terraform destroy
+  174  tree
+  175  terraform init
+  176  terraform init
+  177  terraform plan
+  178  terraform apply
+  179  terraform fmt
+  180  terraform destroy
+  181  terraform init
+  182  terraform fmt
+  183  terraform plan
+  184  terraform apply
+  185  terraform plan
+  186  terraform apply
+  187  terraform plan
+  188  terraform apply
+  189  whoami
+  190  terraform -version
+  191  mkdir pri-boaproject
+  192  ls
+  193  cd pri-boaproject/
+  194  mkdir -p day1
+  195  mkdir -p day2
+  196  mkdir -p day3
+  197  tree
+  198  cd ..
+  199  tree
+  200  ls
+  201  cd 
+  202  cd pri-boaproject/
+  203  ls
+  204  cd day1
+  205  terraform init
+  206  cd day1
+  207  terraform init
+  208  ls
+  209  terraform destroy
+  210  cd ..
+  211  cd day2
+  212  terraform init
+  213  terraform plan
+  214  terraform fmt
+  215  terraform plan
+  216  terraform validate
+  217  terraform apply
+  218  ls
+  219  terraform state list
+  220  terraform init
+  221  terraform plan
+  222  terraform output
+  223  terraform plan
+  224  terraform output
+  225  terraform apply
+  226  terraform output
+  227  terraform destroy
+  228  terraform plan
+  229  terraform plan -var hello-name hello-boa-vm
+  230* 
+  231  terraform plan
+  232  terraform plan -var-file staging.tfvars
+  233  terraform plan -var-file day2.tfvarr
+  234  terraform plan -var-file day2.tfvars
+  235  terraform plan
+  236  terraform init
+  237  terraform plan
+  238  terraform apply
+  239  terraform init -migrate-state
+  240  rm terraform.tfstate
+  241  git version
+  242  cd ..
+  243  git clone https://github.com/patelprin35/train-01072026.git
+  244  ls
+  245  history
+  246  history > history.txt
+  247  ls
+  248  mv day1 train-01072026/
+  249  ls
+  250  tree
+  251  mv day2 train-01072026/
+  252  mv day3 train-01072026/
+  253  mv history.txt train-01072026/
+  254  tree
+  255  cd train-01072026/
+  256  ls
+  257  mv history.txt day2/
+  258  ls
+  259  cd day2/
+  260  ls
+  261  pwd
+  262  terraform init
+  263  terraform plan
+  264  terraform destroy
+  265  rm -rf .terr*
+  266  cd ..
+  267  cd day1
+  268  rm -rf .terr*
+  269  cd ..
+  270  git add .
+  271  git commit -m "sample terraform"
+  272  git push
+  273  cd day2
+  274  ls
+  275  tree
+  276  history > history.txt 
