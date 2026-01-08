@@ -21,3 +21,11 @@ variable "novm" {
   type        = number
   description = "number of VMS"
 }
+
+variable "instance_type_v" {
+  type = map(string)
+  default = {
+    "web" = "t3.micro"
+    "db"  = "t2.small"
+  }
+}

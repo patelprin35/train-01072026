@@ -1,9 +1,10 @@
 output "name" {
-  value = aws_instance.example.*.instance_state
+  value = aws_instance.example.*
 }
 
 output "name2" {
-  value = aws_instance.example.*.arn
+  #value = aws_instance.example.*
+  value = [for i in aws_instance.example : i.ami]
 }
 
 output "name3" {
